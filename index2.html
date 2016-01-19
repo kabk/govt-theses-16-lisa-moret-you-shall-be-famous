@@ -1,6 +1,48 @@
 <html>
   <head>
   
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+var startY = 900;
+var stopY = 1800;
+
+$(window).scroll(function(){
+    checkY();
+});
+
+function checkY()
+{
+    console.log($(window).scrollTop()); 
+    if($(window).scrollTop() > startY && $(window).scrollTop() <= stopY)
+    {
+        console.log("Show"); 
+
+        $('.foxedDiv').show(); 
+    }
+    else
+    {
+        console.log("Hide"); 
+        $('.foxedDiv').hide();
+    }
+}
+
+checkY();
+</script>
+
+<style> 
+body
+{
+background:white;
+    height:3000px; 
+}
+.foxedDiv
+{
+    display:none; 
+    position:fixed; 
+    top:350px; 
+    right:10px; 
+}
 
 </style>
 	  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic|Oswald' rel='stylesheet' type='text/css'>
@@ -60,12 +102,16 @@ Some celebrities have achieved a status that goes beyond the human status and in
 
 	</font>   
 	
+	<div class="foxedDiv" >
+    <img src="popup.jpg" alt="popup.jpg" style="width:304px;height:210px;">
+	<br>
+	
+</div>
 		</ul>
 		</div>
 	</div>
 	<div style="position:absolute;float:LEFT;margin:30 15px 5px 235;">
-<iframe width="890" height="600" src="https://www.youtube.com/embed/Ge33hrlN2Uc" frameborder="0" allowfullscreen></iframe>
-</div>
+<IMG STYLE="WIDTH:890px; HEIGHT:600px" SRC="Undercontruction.jpg"></div>
 		
 	<IMG STYLE="position:absolute; TOP:200px; LEFT:170px; WIDTH:50px; HEIGHT:50px" SRC="praying.jpg">
 	<IMG STYLE="position:absolute; TOP:200px; LEFT:1150px; WIDTH:50px; HEIGHT:50px" SRC="praying2.png">
