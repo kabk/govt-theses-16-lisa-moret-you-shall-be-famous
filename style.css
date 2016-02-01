@@ -76,6 +76,14 @@ and open the template in the editor.
    width: 40%;
 }
 
+.ribbon {
+   position: relative;
+   top: 10px;
+   right: -500px;
+   WIDTH:110px; 
+   HEIGHT:30px
+}
+
 
 
 
