@@ -77,11 +77,11 @@ and open the template in the editor.
 }
 
 .ribbon {
-   position: relative;
-   top: 10px;
-   right: -500px;
+    position: absolute;
+    top: 15px;
+    right: 35px;
    WIDTH:110px; 
-   HEIGHT:30px
+   HEIGHT:25px
 }
 
 
