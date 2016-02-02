@@ -96,8 +96,15 @@ and open the template in the editor.
     right: 45px;
 	bottom: 15px;
 	WIDTH:130px; 
-	HEIGHT:30px;
+   HEIGHT:30px;
 
   
 }
 
+
+.ribbon5 {
+	position: fixed;
+	margin-top: 15px;
+	WIDTH:130px; 
+    HEIGHT:30px;
+}
