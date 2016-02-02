@@ -127,7 +127,7 @@ and open the template in the editor.
 [class*="col-"] {
     width: 100%;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
     /* For tablets: */
     .content {width: 80%;}
 
