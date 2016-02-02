@@ -42,14 +42,9 @@ and open the template in the editor.
 .menu ul li a {
     float: left; text-decoration: none;
     color: black; 
-    padding: 25.5px 11px;
+    padding: 60.5px 4px;
 }
  
- 
-.menu ul li a:hover, .menu ul li .current {
-    color: black;
-    text-decoration: underline;
-}
 
 .header {
     text-align: center;
