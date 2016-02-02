@@ -68,25 +68,36 @@ and open the template in the editor.
 .ribbon {
     position: absolute;
     top: 15px;
-    right: 35px;
-   WIDTH:110px; 
-   HEIGHT:25px
+    right: 45px;
+   WIDTH:130px; 
+   HEIGHT:30px
 }
 
 .ribbon2 {
     position: absolute;
    top: 15px;
-    left: 25px;
-   WIDTH:110px; 
-   HEIGHT:25px
+    left: 45px;
+	WIDTH:130px; 
+   HEIGHT:30px
 }
 
 .ribbon3 {
+	position: fixed;
+ 	left: 45px;
+	bottom: 15px;
+  	WIDTH:130px; 
+   	HEIGHT:30px;
+ 
+  
+}
+
+.ribbon4 {
     position: fixed;
-    left: 25px;
-   WIDTH:110px; 
-   HEIGHT:25px;
-   bottom: 15px;
+    right: 45px;
+	bottom: 15px;
+	WIDTH:130px; 
+	HEIGHT:30px;
+
   
 }
 
