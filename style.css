@@ -81,3 +81,12 @@ and open the template in the editor.
    HEIGHT:25px
 }
 
+.ribbon3 {
+    position: fixed;
+    left: 25px;
+   WIDTH:110px; 
+   HEIGHT:25px;
+   bottom: 15px;
+  
+}
+
