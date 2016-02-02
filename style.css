@@ -123,12 +123,3 @@ and open the template in the editor.
 	}
 	
 	
-	/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-@media only screen and (min-width: 300px) {
-    /* For tablets: */
-    .content {width: 80%;}
-
-}
