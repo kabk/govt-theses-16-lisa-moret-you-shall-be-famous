@@ -55,8 +55,8 @@ and open the template in the editor.
 	font-size: 15px;
 
     margin: 200px auto;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .column-left{ float: left; width: 25%; margin: 10px;}
@@ -170,9 +170,9 @@ and open the template in the editor.
 	margin-right: 0px;
 }
 
-.column-left{ float: left; width: 10%; margin: 10px;}
-.column-right{ right; width: 10%;  margin: 10px;}
-.column-center{ display: inline-block; width: 80%;}
+.column-left{ float: left; width: 5%; margin: 10px;}
+.column-right{ right; width: 5%;  margin: 10px;}
+.column-center{ display: inline-block; width: 90%;}
 
 
 .ribbon {
