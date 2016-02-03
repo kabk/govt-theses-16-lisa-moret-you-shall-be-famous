@@ -25,7 +25,6 @@ and open the template in the editor.
 }
 
 
-
 .menu {
     display: inline-block;
 }
@@ -122,13 +121,13 @@ and open the template in the editor.
 	/* For mobile phones: */
 
 
-@media screen and (min-width: 50px) and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
     .outerheader {
     z-index: 100;
     position: fixed;
     height: 180px;
     background-color: white;
-    width: 70%;
+    width: 20%;
     top: 0px;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
