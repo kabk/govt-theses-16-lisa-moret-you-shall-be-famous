@@ -28,7 +28,7 @@ and open the template in the editor.
 }
 
 .menu ul {
-    margin: 15; padding: 0;
+    margin: 0; 
     float: left;
 }
 
@@ -39,7 +39,7 @@ and open the template in the editor.
 .menu ul li a {
     float: center; text-decoration: none;
     color: black; 
-    padding: 60.5px 4px;
+    padding: 60.5px 3px;
 }
  
 
@@ -47,7 +47,7 @@ and open the template in the editor.
 	font-family: "utopia", Times, serif;
     text-align: center;
 	color:black;
-	margin: 7px;
+	margin: 0px;
 	font-size: 500%;
 	}
 	
@@ -132,110 +132,4 @@ h1 {
 
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
-    .outerheader {
-    z-index: 100;
-    position: fixed;
-    height: 180px;
-    background-color: white;
-    width: 100%;
-    top: 0px;
-	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
-}
-
-
-
-.menu {
-    display: inline-block;
-}
-
-.menu ul {
-    margin: 50; padding: 0;
-    float: left;
-}
-
-.menu ul li {
-    display: inline;
-}
-
-.menu ul li a {
-    float: left; text-decoration: none;
-    color: black; 
-    padding: 60.5px 4px;
-}
- 
-
-.header {
-    text-align: center;
-}
-
-.content {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
-
-    margin: 200px auto;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-.column-left{ float: left; width: 5%; margin: 10px;}
-.column-right{ right; width: 5%;  margin: 10px;}
-.column-center{ display: inline-block; width: 90%;}
-
-
-.ribbon {
-    position: absolute;
-    top: 15px;
-    right: 45px;
-   WIDTH:130px; 
-   HEIGHT:30px
-}
-
-.ribbon2 {
-    position: absolute;
-   top: 15px;
-    left: 45px;
-	WIDTH:130px; 
-   HEIGHT:30px
-}
-
-.ribbon3 {
-	position: fixed;
- 	left: 45px;
-	bottom: 15px;
-  	WIDTH:130px; 
-   	HEIGHT:30px;
- 
-  
-}
-
-.ribbon4 {
-    position: fixed;
-    right: 45px;
-	bottom: 15px;
-	WIDTH:130px; 
-   HEIGHT:30px;
-
-  
-}
-
-
-.ribbon5 {
-	position: fixed;
-	margin-top: 15px;
-	WIDTH:130px; 
-    HEIGHT:30px;
-}
-
-.download {
-	position: fixed;
-	margin-top: 50px;
-	right: 38px;
-	WIDTH:30px; 
-    HEIGHT:30px;	
- 
-	}
-	
-
-
+   
