@@ -5,10 +5,8 @@ and open the template in the editor.
 */
 /* 
     Created on : 2-jan-2016, 13:46:21
-    Author     : mick_
 */
 
-/* unvisited link */
 
 
 .outerheader {
@@ -30,7 +28,7 @@ and open the template in the editor.
 }
 
 .menu ul {
-    margin: 50; padding: 0;
+    margin: 15; padding: 0;
     float: left;
 }
 
@@ -39,7 +37,7 @@ and open the template in the editor.
 }
 
 .menu ul li a {
-    float: left; text-decoration: none;
+    float: center; text-decoration: none;
     color: black; 
     padding: 60.5px 4px;
 }
@@ -47,15 +45,17 @@ and open the template in the editor.
 
 .header {
     text-align: center;
-}
+	margin: 7px;
+	font-size: 600%;
+	}
 
 .content {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 
     margin: 200px auto;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .column-left{ float: left; width: 25%; margin: 10px;}
@@ -74,14 +74,14 @@ and open the template in the editor.
 .ribbon2 {
     position: absolute;
    top: 15px;
-    left: 45px;
+    left: 20px;
 	WIDTH:130px; 
    HEIGHT:30px
 }
 
 .ribbon3 {
 	position: fixed;
- 	left: 45px;
+ 	left: 20px;
 	bottom: 15px;
   	WIDTH:130px; 
    	HEIGHT:30px;
@@ -118,6 +118,8 @@ and open the template in the editor.
 	
 	
 	
+	
+	
 	/* For mobile phones: */
 
 
@@ -127,7 +129,7 @@ and open the template in the editor.
     position: fixed;
     height: 180px;
     background-color: white;
-    width: 20%;
+    width: 100%;
     top: 0px;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
