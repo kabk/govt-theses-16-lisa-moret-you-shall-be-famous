@@ -11,12 +11,12 @@ and open the template in the editor.
 
 
 .outerheader {
-    z-index: 100;
-    position: fixed;
-    height: 180px;
-    background-color: white;
-    width: 100%;
-    top: 0px;
+z-index: 100;
+position: fixed;
+height: 180px;
+background-color: white;
+width: 100%;
+top: 0px;
 text-align: center;
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 15px;
@@ -46,9 +46,9 @@ font-size: 15px;
 .header {
 height: 25px;
 font-family: "utopia", Times, serif;
-    text-align: center;
+text-align: center;
 color:black;
-margin: 35px;
+margin: 38px;
 font-size: 500%;
 }
   
@@ -56,8 +56,8 @@ font-size: 500%;
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 15px;
 margin: 120px auto;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 0%;
+margin-right: 0%;
 
 }
 
@@ -73,7 +73,7 @@ font:"Arial Black", Gadget, sans-serif;
 
 
 .ribbon {
-    position: absolute;
+    position: fixed;
     top: 15px;
     right: 45px;
    WIDTH:130px; 
@@ -81,29 +81,29 @@ font:"Arial Black", Gadget, sans-serif;
 }
 
 .ribbon2 {
-    position: absolute;
-   top: 15px;
-    left: 20px;
+position: fixed;
+top: 15px;
+left: 20px;
 WIDTH:130px; 
-   HEIGHT:30px
+HEIGHT:30px
 }
 
 .ribbon3 {
 position: fixed;
- 	left: 20px;
+left: 20px;
 bottom: 15px;
-  WIDTH:130px; 
-   	HEIGHT:30px;
+WIDTH:130px; 
+HEIGHT:30px;
  
   
 }
 
 .ribbon4 {
-    position: fixed;
-    right: 45px;
+position: fixed;
+right: 45px;
 bottom: 15px;
 WIDTH:130px; 
-   HEIGHT:30px;
+HEIGHT:30px;
 
   
 }
@@ -113,15 +113,15 @@ WIDTH:130px;
 position: fixed;
 margin-top: 15px;
 WIDTH:130px; 
-    HEIGHT:30px;
+HEIGHT:30px;
 }
 
 .download {
 position: fixed;
-margin-top: 50px;
+margin-top: 52px;
 right: 38px;
 WIDTH:30px; 
-    HEIGHT:30px;
+HEIGHT:30px;
  
 }
 /* For mobile phones: */
