@@ -40,14 +40,15 @@ and open the template in the editor.
     float: center; text-decoration: none;
     color: black; 
     padding: 60.5px 3px;
-}
+	}
  
 
 	.header {
+	height: 25px;	
 	font-family: "utopia", Times, serif;
     text-align: center;
 	color:black;
-	margin: 45px;
+	margin: 40px;
 	font-size: 500%;
 	}
 	
@@ -55,9 +56,7 @@ and open the template in the editor.
 .content {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
-    margin: 150px auto;
-	margin-left: 0px;
-	margin-right: 0px;
+    margin: 120px auto;
 }
 
 h1 {
