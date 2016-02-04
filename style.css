@@ -28,7 +28,7 @@ and open the template in the editor.
 }
 
 .menu ul {
-    margin: 0; 
+    margin: 25; 
     float: left;
 }
 
@@ -47,7 +47,7 @@ and open the template in the editor.
 	font-family: "utopia", Times, serif;
     text-align: center;
 	color:black;
-	margin: 0px;
+	margin: 45px;
 	font-size: 500%;
 	}
 	
