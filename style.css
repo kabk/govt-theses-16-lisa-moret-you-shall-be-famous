@@ -1,3 +1,4 @@
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -16,10 +17,9 @@ and open the template in the editor.
     background-color: white;
     width: 100%;
     top: 0px;
-	text-align: center;
-	
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 15px;
 }
 
 
@@ -40,29 +40,31 @@ and open the template in the editor.
     float: center; text-decoration: none;
     color: black; 
     padding: 60.5px 3px;
-	}
+}
  
 
-	.header {
-	height: 25px;	
-	font-family: "utopia", Times, serif;
+.header {
+height: 25px;
+font-family: "utopia", Times, serif;
     text-align: center;
-	color:black;
-	margin: 40px;
-	font-size: 500%;
-	}
-	
+color:black;
+margin: 35px;
+font-size: 500%;
+}
   
 .content {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 15px;
-    margin: 120px auto;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 15px;
+margin: 120px auto;
+margin-left: 10%;
+margin-right: 10%;
+
 }
+
 
 h1 {
     font-size: 15px;
-	font:"Arial Black", Gadget, sans-serif;
-	
+font:"Arial Black", Gadget, sans-serif;
 }
 
 .column-left{ float: left; width: 25%; margin: 10px;}
@@ -82,15 +84,15 @@ h1 {
     position: absolute;
    top: 15px;
     left: 20px;
-	WIDTH:130px; 
+WIDTH:130px; 
    HEIGHT:30px
 }
 
 .ribbon3 {
-	position: fixed;
+position: fixed;
  	left: 20px;
-	bottom: 15px;
-  	WIDTH:130px; 
+bottom: 15px;
+  WIDTH:130px; 
    	HEIGHT:30px;
  
   
@@ -99,8 +101,8 @@ h1 {
 .ribbon4 {
     position: fixed;
     right: 45px;
-	bottom: 15px;
-	WIDTH:130px; 
+bottom: 15px;
+WIDTH:130px; 
    HEIGHT:30px;
 
   
@@ -108,26 +110,21 @@ h1 {
 
 
 .ribbon5 {
-	position: fixed;
-	margin-top: 15px;
-	WIDTH:130px; 
+position: fixed;
+margin-top: 15px;
+WIDTH:130px; 
     HEIGHT:30px;
 }
 
 .download {
-	position: fixed;
-	margin-top: 50px;
-	right: 38px;
-	WIDTH:30px; 
-    HEIGHT:30px;	
+position: fixed;
+margin-top: 50px;
+right: 38px;
+WIDTH:30px; 
+    HEIGHT:30px;
  
-	}
-	
-	
-	
-	
-	
-	/* For mobile phones: */
+}
+/* For mobile phones: */
 
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
