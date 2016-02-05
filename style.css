@@ -41,7 +41,11 @@ font-size: 15px;
     color: black; 
     padding: 60.5px 3px;
 }
- 
+
+a:link {
+    color: black;
+}
+
 
 .header {
 height: 25px;
@@ -55,7 +59,7 @@ font-size: 500%;
 .content {
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 15px;
-margin: 120px auto;
+margin: 150px auto;
 margin-left: 0%;
 margin-right: 0%;
 
