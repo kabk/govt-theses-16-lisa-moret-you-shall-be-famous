@@ -20,27 +20,6 @@ html {
     height:100%;
 }
 
-#titel {
-    width: 100%;
-    font-family: akkurat, sans-serif;
-	text-decoration: none;
-	font-size: 500%;
-	font-weight: bold;
-	line-height: 28px;
-	padding-top: 30%;
-
-	}
-
-#subtitel {
-    width: 100%;
-    font-family: akkurat, sans-serif;
-	text-decoration: none;
-	font-size: 200%;
-	line-height: 28px;
-	padding-top: 2%;
-	padding-bottom: 25%;
-	}
-
 
 body {
 	padding: 0;
@@ -56,8 +35,10 @@ body {
 	font-weight: 400;
 }
 
+/* fonts */
+
 h1 {
-	font-family: akkurat, sans-serif;
+	font-family: utopia, sans-serif;
 	text-decoration: none;
 	font-size: 30px;
 	line-height: 28px;
@@ -67,11 +48,16 @@ h1 {
 
 
 h2 {
-	font-family: akkurat, sans-serif;
-	text-decoration: none;
+	font-family: utopia, sans-serif;
 	font-size: 100px;
-	line-height: auto;
+	line-height: 110px;
 	text-align: center;
+}
+
+h3 {
+	font-family: akkurat, sans-serif;
+	font-size: 20px;
+	padding-top: 0px
 }
 
 b {
@@ -84,15 +70,13 @@ b {
 
 p {
 	font-family: "Open Sans";
-/*	font-style: normal;
-	font-weight: 400;
-*/
 	letter-spacing: 1px;
 	font-size: 15px;
-	line-height: 25px;
+	line-height: 24px;
 }
 
 
+/* popup image */
 
 a img.popup { 
   float:left;
@@ -108,8 +92,8 @@ a:hover img.popup {
 
 
 
-/* links scrollen */
 
+/* Verschillende div's */
 
 
 #MOVIE {
@@ -188,7 +172,7 @@ li {
 }
 
 
-/* algemene links */
+/* kleuren van links */
 a {
 	text-decoration: none;
 	color: black;
@@ -198,12 +182,14 @@ a:hover{
 	color: grey;
 }
 
-/* Begin Navigation Bar Styling... ik weet ook niet precies hoe dit werkt maar fuck it */
+
+
+/* Begin Navigation Bar*/
    #nav {
       width: 100%;
       padding: 0;
+	  font-size:8px;
 	  margin-top:20px;
-      list-style: none;
       text-align:center; }
 	
    #nav li a {
@@ -222,7 +208,7 @@ a:hover{
         display:block;
         font-weight:bold;
         text-align:center;
-        padding:4px;
+        padding:10px;
         text-decoration:none;
     }
     #nav li {
@@ -233,14 +219,15 @@ a:hover{
     text-align:center;
 }
 
-   /* End navigation bar styling. */
+
+   /* Exclusief buttons. */
    
-   .ribbon {
-    position: fixed;
-    top: 15px;
-    right: 45px;
-   WIDTH:130px; 
-   HEIGHT:30px
+.ribbon {
+position: fixed;
+top: 15px;
+right: 20px;
+WIDTH:130px; 
+HEIGHT:30px
 }
 
 .ribbon2 {
@@ -250,6 +237,7 @@ left: 20px;
 WIDTH:130px; 
 HEIGHT:30px
 }
+
 
 .ribbon3 {
 position: fixed;
@@ -263,7 +251,7 @@ HEIGHT:30px;
 
 .ribbon4 {
 position: fixed;
-right: 45px;
+right: 20px;
 bottom: 15px;
 WIDTH:130px; 
 HEIGHT:30px;
@@ -272,9 +260,28 @@ HEIGHT:30px;
 }
 
 
-.ribbon5 {
-position: fixed;
-margin-top: 15px;
-WIDTH:130px; 
-HEIGHT:30px;
+
+/* For mobile phones: */
+
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+
+body {
+	background-color: pink;
+	}
+	
+	.column-center {
+		width: 100%;	
+		}
+	
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+
+	
+}
+@media screen and (min-width: 800px) {
+
+
+	
 }
