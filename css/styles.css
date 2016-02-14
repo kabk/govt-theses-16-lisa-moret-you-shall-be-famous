@@ -56,13 +56,13 @@ h2 {
 }
 
 h3 {
-	font-family: akkurat, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 20px;
 	padding-top: 0px
 }
 
 b {
-	font-family: akkurat, sans-serif;
+	font-family: "Open Sans", sans-serif;
 	text-decoration: none;
 	font-size: 15px;
 	padding-bottom: 10px;
@@ -93,9 +93,23 @@ a:hover img.popup {
 
 
 
+/* popup video */
+
+.showme{ 
+  display: none; 
+  width:50%;
+  display: none;
+}
+.showhim:hover .showme{
+display : block;
+position: absolute;
+height:auto;
+width:auto;
+}
+
+
 
 /* Verschillende div's */
-
 
 #MOVIE {
 	width: 55%;
@@ -150,6 +164,7 @@ a:hover img.popup {
  	margin: 0 auto;
 	text-align: left;
 }
+
 
 /* XXXXX */
 div#grafiek {
