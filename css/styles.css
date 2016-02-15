@@ -285,6 +285,8 @@ HEIGHT:30px;
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
+/*Alle divs*/
+
 #MOVIE {
 	width: 95%;
 }
@@ -320,6 +322,43 @@ HEIGHT:30px;
 
 #END{
 	width: 95%;
+}
+
+
+
+/* Begin Navigation Bar*/
+   #nav {
+      width: 100%;
+      padding: 0;
+	  margin-top:50px;
+      text-align:center; }
+	
+   #nav li a {
+      padding: 8px 15px;
+      text-decoration: none;
+	  font-size: 15px;
+      font-weight: bold;
+      border-right: 0px solid #ccc; }
+   
+   #nav li a:hover {
+      /*color: #c00;*/
+      background-color: #fff; }
+
+
+    #nav li a:link,a:visited {
+        margin:0 auto;
+        display:block;
+        font-weight:bold;
+        text-align:center;
+        padding:10px;
+        text-decoration:none;
+    }
+    #nav li {
+    display:inline-block;
+}
+#menu {
+    background-color:#98bf21;
+    text-align:center;
 }
 	
 
