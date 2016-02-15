@@ -111,6 +111,8 @@ width:auto;
 
 /* Verschillende div's */
 
+	
+
 #MOVIE {
 	width: 55%;
 	height: 900;
@@ -181,7 +183,7 @@ padding:30px;
 li {
     list-style: none;
     margin-bottom: 8px;
-    font-family: akkurat;
+    font-family: Open Sans 600;
 	font-size: 20px;
 	line-height: 20px;
 	text-decoration: none;
@@ -278,35 +280,49 @@ HEIGHT:30px;
 
 
 
-/* For mobile phones: */
+/* For mobile phones: iphone 5 is 320 ipad is 768*/
 
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
-body {
-	padding: 0;
-	margin: 0;
-	background-image: url(back.gif);
-	background-color: black;    
-	background-repeat: no-repeat;  
-	background-attachment: fixed;  
-	background-position: 0% 0%;
-	background-size: contain;
-	font-family: "Open Sans";
-	font-style: normal;
-	font-weight: 400;
+#MOVIE {
+	width: 95%;
+}
+
+#INTRODUCTION {
+	width: 95%;
+}
+
+
+#CREATING {
+	width: 95%;
+}
+
+#ICONS {
+	width: 95%;
+}
+
+#MODERN {
+	width: 95%;
+}
+
+#MEDIA {
+	width: 95%;
+}
+
+#CONCLUSION {
+	width: 95%;
+}
+
+#ABSTRACT {
+	width: 95%;
+}
+
+#END{
+	width: 95%;
 }
 	
 
 	
 }
 
-@media screen and (min-width: 480px) and (max-width: 800px) {
-
-	
-}
-@media screen and (min-width: 800px) {
-
-
-	
-}
