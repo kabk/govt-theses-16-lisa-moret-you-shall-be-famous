@@ -284,12 +284,20 @@ HEIGHT:30px;
 @media screen and (min-width: 300px) and (max-width: 480px) {
 
 body {
-	background-color: pink;
-	}
+	padding: 0;
+	margin: 0;
+	background-image: url(back.gif);
+	background-color: black;    
+	background-repeat: no-repeat;  
+	background-attachment: fixed;  
+	background-position: 0% 0%;
+	background-size: contain;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+}
 	
-	.column-center {
-		width: 100%;	
-		}
+
 	
 }
 
