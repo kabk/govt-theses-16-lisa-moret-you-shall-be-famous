@@ -38,7 +38,7 @@ body {
 /* fonts */
 
 h1 {
-	font-family: 'Minion', serif;
+	font-family: 'Garamond', serif;
 	text-decoration: none;
 	font-size: 30px;
 	line-height: 28px;
@@ -49,8 +49,8 @@ h1 {
 
 
 h2 {
-	font-family: 'Minion', serif;
-	font-size: 100px;
+	font-family: 'Garamond', serif;
+	font-size: 120px;
 	line-height: 110px;
 	text-align: center;
 }
