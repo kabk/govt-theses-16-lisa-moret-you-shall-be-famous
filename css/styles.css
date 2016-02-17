@@ -261,7 +261,7 @@ HEIGHT:30px
 .ribbon3 {
 position: fixed;
 left: 20px;
-bottom: 5px;
+bottom: 45px;
 WIDTH:130px; 
 HEIGHT:30px;
  
@@ -270,8 +270,8 @@ HEIGHT:30px;
 
 .ribbon4 {
 position: fixed;
-right: 20px;
-bottom: 5px;
+right: 5px;
+bottom: 45px;
 WIDTH:130px; 
 HEIGHT:30px;
 
