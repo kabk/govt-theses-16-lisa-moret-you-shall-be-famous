@@ -38,21 +38,22 @@ body {
 /* fonts */
 
 h1 {
-	font-family: 'Garamond', serif;
+	font-family: 'Inknut Antiqua', serif;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 20px;
 	line-height: 28px;
 	letter-spacing: 1,5px;
-	padding-top: 50px
+	letter-spacing: -1px;
 }
 
 
 
 h2 {
-	font-family: 'Garamond', serif;
+	font-family: 'Inknut Antiqua', serif;
 	font-size: 120px;
 	line-height: 110px;
 	text-align: center;
+	letter-spacing: -1px;
 }
 
 h3 {
@@ -103,8 +104,8 @@ a:hover img.popup {
 .showhim:hover .showme{
 display : block;
 position: absolute;
-height:auto;
-width:auto;
+height:70%;
+width:70%;
 }
 
 
@@ -242,7 +243,7 @@ a:hover{
    
 .ribbon {
 position: fixed;
-top: 15px;
+top: 5px;
 right: 20px;
 WIDTH:130px; 
 HEIGHT:30px
@@ -250,7 +251,7 @@ HEIGHT:30px
 
 .ribbon2 {
 position: fixed;
-top: 15px;
+top: 5px;
 left: 20px;
 WIDTH:130px; 
 HEIGHT:30px
@@ -260,7 +261,7 @@ HEIGHT:30px
 .ribbon3 {
 position: fixed;
 left: 20px;
-bottom: 15px;
+bottom: 5px;
 WIDTH:130px; 
 HEIGHT:30px;
  
@@ -270,7 +271,7 @@ HEIGHT:30px;
 .ribbon4 {
 position: fixed;
 right: 20px;
-bottom: 15px;
+bottom: 5px;
 WIDTH:130px; 
 HEIGHT:30px;
 
