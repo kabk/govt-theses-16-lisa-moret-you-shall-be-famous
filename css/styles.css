@@ -15,10 +15,6 @@ html {
     z-index: -1;
 }
 
-.stretch {
-    margin: auto;
-    height:100%;
-}
 
 
 body {
@@ -81,14 +77,15 @@ p {
 /* popup image */
 
 a img.popup { 
-  float:left;
-  display: none; 
-  width:20%;
+  /*float:left;*/
+  display: inline-block;
+  position: absolute;
+  visibility: hidden; 
+  width: 20%;
 }
 
 a:hover img.popup { 
-  display: block ;
-  position: absolute;
+  visibility: visible;
 
 }
 
@@ -96,16 +93,19 @@ a:hover img.popup {
 
 /* popup video */
 
-.showme{ 
-  display: none; 
-  width:50%;
-  display: none;
+.showhim {
+	display: inline-block;
 }
-.showhim:hover .showme{
-display : block;
-position: absolute;
-height:70%;
-width:70%;
+.showme { 
+  display: inline-block;
+  position: absolute;
+}
+.showhim .showme {
+    display: none; 
+}
+
+.showhim:hover .showme {
+    display: inherit; 
 }
 
 
