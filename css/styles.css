@@ -66,10 +66,17 @@ b {
 }
 
 
-p {
+t {
 	font-family: "Open Sans";
 	letter-spacing: 1px;
 	font-size: 15px;
+	line-height: 24px;
+}
+
+quote {
+	font-family: 'Utopia-Bold';
+	letter-spacing: 1px;
+	font-size: 16px;
 	line-height: 24px;
 }
 
@@ -115,55 +122,55 @@ a:hover img.popup {
 	
 
 #MOVIE {
-	width: 55%;
+	width: 60%;
 	height: 900;
  	margin: 0 auto;
 }
 
 #INTRODUCTION {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
 
 
 #CREATING {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
 
 #ICONS {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
 
 #MODERN {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
 
 #MEDIA {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
 
 #CONCLUSION {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
 
 #ABSTRACT {
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 }
 
 #END{
-	width: 55%;
+	width: 60%;
  	margin: 0 auto;
 	text-align: left;
 }
