@@ -106,7 +106,7 @@ a:hover img.popup {
 .showme { 
   display: inline-block;
   position: absolute;
-  background-color:#F2F2F2;
+  background-color:#FAFAFA;
   border-radius: 3px;
 }
 .showhim .showme {
