@@ -106,6 +106,7 @@ a:hover img.popup {
 .showme { 
   display: inline-block;
   position: absolute;
+  background-color:white;
 }
 .showhim .showme {
     display: none; 
@@ -114,6 +115,7 @@ a:hover img.popup {
 .showhim:hover .showme {
     display: inherit; 
 }
+
 
 
 
