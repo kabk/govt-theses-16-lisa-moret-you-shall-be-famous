@@ -111,7 +111,7 @@ a:hover img.popup {
   border-style: solid;
   border-color: darkgrey;
   border-width: 0.2px;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 2px 2px 5px #888888;
 }
 .showhim .showme {
     display: none; 
