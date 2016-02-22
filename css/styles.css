@@ -107,7 +107,7 @@ a:hover img.popup {
   display: inline-block;
   position: absolute;
   background-color: white;
-  border-radius: 3px;
+  border-radius: 4px;
   border-style: solid;
   border-color: darkgrey;
   border-width: 0.2px;
