@@ -258,14 +258,19 @@ xxxxxxxxx</t><br><br>
 
 </script>  
 
-
-<script> if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
-    $(".menu li a").click(function(){
-        //we just need to attach a click event listener to provoke iPhone/iPod/iPad's hover event
-        //strange
+<script>
+(function($) {
+    $(document).ready(function() {
+        // Emulate hover on tablets and smartphones
+        if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+            $("#menu li a").click(function() {
+                return false;
+            });
+        }
     });
-}
-</script>
+})
+</script>	
+	
      
     </body>
 </html>
