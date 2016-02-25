@@ -16,10 +16,10 @@ div.content {
     height: 100%;
     width: 100%;
     margin-top: 100%;
-    background: #F9FAF7;
+    background: #FAFAFA;
 }
 
-nav {
+header {
     position: fixed;
     z-index: 2;
     top: 0;
@@ -208,11 +208,16 @@ a:hover img.popup {
 /* Verschillende div's */
 
 	
-
-#MOVIE {
-	width: 55%;
-	height: 900;
+#intro {
+	width: 70%;
  	margin: 0 auto;
+	text-align: center;
+}
+
+#INSTA {
+	width: 45%;
+ 	margin: 0 auto;
+	align: center;
 }
 
 #INTRODUCTION {
@@ -261,10 +266,6 @@ a:hover img.popup {
 	width: 55%;
  	margin: 0 auto;
 	text-align: left;
-}
-
-#vidBox{
-	
 }
 
 
