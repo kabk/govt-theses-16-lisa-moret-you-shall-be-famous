@@ -127,6 +127,14 @@ sup {
 	
 }
 
+sup2 {
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+	font-size: 9px;
+	text-decoration: underline;	
+}
+
+
 b {
 	font-family: "Open Sans", sans-serif;
 	text-decoration: none;
@@ -218,6 +226,7 @@ a:hover img.popup {
 	width: 50%;
  	margin: 0 auto;
 	align: center;
+	
 }
 
 #INTRODUCTION {
