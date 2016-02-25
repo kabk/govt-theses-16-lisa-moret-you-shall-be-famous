@@ -6,7 +6,7 @@ div.background {
     height: 100%;
     width: 100%;
     margin-top: 50px;
-    background: #FEFEF8;
+    background: white;
 	text-align: center;
 }
 
@@ -16,7 +16,7 @@ div.content {
     height: 100%;
     width: 100%;
     margin-top: 100%;
-    background: #FEFEF8;
+    background: #F9FAF7;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
     left: 0;
     height: 35px;
     width: 100%;
-    background: #FEFEF8;
+    background: white;
 	
 	color: black;
 	text-align: center;
@@ -95,7 +95,7 @@ body {
 h1 {
 	font-family: 'Inknut Antiqua', serif;
 	text-decoration: none;
-	font-size: 19px;
+	font-size: 40px;
 	line-height: 28px;
 	letter-spacing: 1,5px;
 	letter-spacing: -1px;
@@ -121,6 +121,8 @@ sup {
 	font-family: "Open Sans", sans-serif;
 	font-size: 9px;
 	text-decoration: underline;
+
+	
 }
 
 b {
@@ -136,7 +138,9 @@ b2 {
 	text-decoration: none;
 	font-size: 14px;
 	padding-bottom: 10px;
+	
 	text-decoration:underline;
+	
 }
 
 
