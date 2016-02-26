@@ -15,7 +15,7 @@ div.content {
     z-index: 1;
     height: 100%;
     width: 100%;
-    margin-top: 100%;
+    margin-top: 80%;
     background: #FAFAFA;
 }
 
@@ -33,6 +33,22 @@ header {
 	padding: 8px 25px; 
 	font-size: 10px;
 	display:inline-block;
+}
+
+leftheader {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    
+	height: 100%;
+    width: 3%;
+    
+	background: alpha(opacity=40);
+	border-right: 4px solid black;
+	
+	text-align: left;
+	
 }
 
 /* kleuren van links */
@@ -93,7 +109,7 @@ body {
 /* fonts */
 
 h1 {
-	font-family: 'Inknut Antiqua', serif;
+	font-family: 'Ramaraja', serif;
 	text-decoration: none;
 	font-size: 40px;
 	line-height: 28px;
@@ -104,36 +120,39 @@ h1 {
 
 
 h2 {
-	font-family: 'Inknut Antiqua', serif;
-	font-size: 120px;
-	line-height: 110px;
+	font-family: 'Ramaraja', serif;
+	font-size: 200px;
+	line-height: 150px;
 	text-align: center;
-	letter-spacing: -1px;
+	letter-spacing: 4px;
+	color: black;
 }
 
 h3 {
 	text-align: center;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Ramaraja', serif;
 	font-size: 20px;
 	padding-top: 0px
+	color: black;
 	
+}
+
+h4 {
+
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	writing-mode: tb-rl;
+	 white-space: nowrap;
+	font-size: 40px;
 }
 
 sup {
 	font-family: "Open Sans", sans-serif;
 	font-size: 9px;
 	text-decoration: underline;
-
-	
+		color: blue;	
 }
-
-sup2 {
-	font-family: "Open Sans", sans-serif;
-	text-align: center;
-	font-size: 9px;
-	text-decoration: underline;	
-}
-
 
 b {
 	font-family: "Open Sans", sans-serif;
@@ -148,8 +167,7 @@ b2 {
 	text-decoration: none;
 	font-size: 14px;
 	padding-bottom: 10px;
-	text-decoration:none;
-	
+	text-decoration: none;	
 }
 
 
@@ -214,6 +232,7 @@ a:hover img.popup {
 
 
 /* Verschillende div's */
+
 
 	
 #intro {
