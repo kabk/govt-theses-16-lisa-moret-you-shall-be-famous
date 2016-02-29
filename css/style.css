@@ -5,8 +5,8 @@ div.background {
     left: 0;
     height: 100%;
     width: 100%;
-    margin-top: 50px;
-    background: white;
+    margin-top: 0px;
+    background: black;
 	text-align: center;
 }
 
@@ -19,6 +19,7 @@ div.content {
     background: #FAFAFA;
 }
 
+/*
 header {
     position: fixed;
     z-index: 2;
@@ -35,7 +36,7 @@ header {
 	display:inline-block;
 }
 
-leftheader {
+/*leftheader {
     position: fixed;
     z-index: 9;
     top: 0;
@@ -67,7 +68,7 @@ a {
   }
 
 a:hover{
-	color: grey;
+	color: blue;
 }
 
 
@@ -108,19 +109,27 @@ body {
 
 /* fonts */
 
+
+hr { 
+    display: block;
+	width: 100%; 
+    border-width: 1px;
+	color: #123455;
+}
+
 h1 {
-	font-family: 'Ramaraja', serif;
+	font-family: 'Libre Baskerville', serif;
 	text-decoration: none;
 	font-size: 40px;
 	line-height: 28px;
 	letter-spacing: 1,5px;
-	letter-spacing: -1px;
+	letter-spacing: 0px;
 }
 
 
 
 h2 {
-	font-family: 'Ramaraja', serif;
+	font-family: 'Libre Baskerville', serif;
 	font-size: 200px;
 	line-height: 150px;
 	text-align: center;
@@ -129,9 +138,9 @@ h2 {
 }
 
 h3 {
+	font-family: "Open Sans", sans-serif;
 	text-align: center;
-	font-family: 'Ramaraja', serif;
-	font-size: 20px;
+	font-size: 17px;
 	padding-top: 0px
 	color: black;
 	
@@ -149,9 +158,9 @@ h4 {
 
 sup {
 	font-family: "Open Sans", sans-serif;
-	font-size: 9px;
+	font-size: 10px;
 	text-decoration: underline;
-		color: blue;	
+	color: blue;	
 }
 
 b {
@@ -172,15 +181,15 @@ b2 {
 
 
 t {
-	font-family: "Open Sans";
-	letter-spacing: 1px;
+	font-family: 'Libre Baskerville', serif;
+	letter-spacing: 0.5px;
 	font-size: 14px;
-	line-height: 22px;
+	line-height: 21px;
 }
 
 quote {
-	font-family: 'Utopia-Bold';
-	letter-spacing: 1px;
+	font-family: 'Libre Baskerville', serif;
+	letter-spacing: 0px;
 	font-size: 16px;
 	line-height: 24px;
 }
