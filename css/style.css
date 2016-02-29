@@ -10,6 +10,19 @@ div.background {
 	text-align: center;
 }
 
+div.backgroundtop {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    background: alpha(opacity=40);
+	text-align: center;
+	color: white;
+}
+
 div.content {
     position: relative;
     z-index: 1;
@@ -131,10 +144,10 @@ h1 {
 h2 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 200px;
-	line-height: 150px;
+	line-height: 180px;
 	text-align: center;
 	letter-spacing: 4px;
-	color: black;
+	color: white;
 }
 
 h3 {
@@ -184,6 +197,14 @@ t {
 	letter-spacing: 0.5px;
 	font-size: 14px;
 	line-height: 21px;
+}
+
+t2 {
+	font-family: 'Libre Baskerville', serif;
+	letter-spacing: 0.5px;
+	font-size: 14px;
+	color: white;	
+	text-align: left;
 }
 
 quote {
@@ -303,6 +324,7 @@ a:hover img.popup {
  	margin: 0 auto;
 	text-align: left;
 }
+
 
 
 
