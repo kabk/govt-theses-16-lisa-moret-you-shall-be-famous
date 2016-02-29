@@ -82,7 +82,8 @@ a {
   }
 
 a:hover{
-	color: blue;
+	color: black;
+	text-decoration: underline;
 }
 
 
@@ -178,7 +179,7 @@ sup {
 }
 
 b {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	text-decoration: none;
 	font-size: 14px;
 	padding-bottom: 10px;
