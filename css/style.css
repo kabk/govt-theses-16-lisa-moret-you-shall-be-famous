@@ -139,6 +139,7 @@ h1 {
 	line-height: 28px;
 	letter-spacing: 1,5px;
 	letter-spacing: 0px;
+	font-stretch: expanded;
 }
 
 
@@ -175,11 +176,11 @@ sup {
 	font-family: "Open Sans", sans-serif;
 	font-size: 10px;
 	text-decoration: underline;
-	color: blue;	
+	color: black;	
 }
 
 b {
-	font-family: 'Libre Baskerville', serif;
+	font-family: "Open Sans", sans-serif;
 	text-decoration: none;
 	font-size: 14px;
 	padding-bottom: 10px;
@@ -211,8 +212,9 @@ t2 {
 
 quote {
 	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
 	letter-spacing: 0px;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 24px;
 }
 
@@ -332,4 +334,129 @@ a:hover img.popup {
 
 
 
+/* For mobile phones: iphone 5 is 320 ipad is 768*/
 
+
+@media screen and (min-width: 320px) {
+
+
+	div.background {
+	    position: fixed;
+	    z-index: 0;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    width: 100%;
+	    margin-top: -140px;
+	    background: black;
+		text-align: center;
+	}
+	
+	
+	div.backgroundtop {
+	    position: fixed;
+	    z-index: 0;
+	    top: 0;
+	    left: 0;
+	    height: 50%;
+	    width: 100%;
+	    margin-top: 0px;
+	    background: alpha(opacity=40);
+		text-align: center;
+		color: white;
+		background-image: url("toplayer.png");
+	}
+	
+	
+	div.content {
+	    position: relative;
+	    z-index: 1;
+	    height: 100%;
+	    width: 100%;
+	    margin-top: 90%;
+	    background: #FAFAFA;
+	}
+	
+
+	/* TEXT */
+	
+	t {
+		font-size: 13px;
+	}
+	
+	b {
+		font-family: "Open Sans", sans-serif;
+		text-decoration: none;
+		font-size: 13px;
+		padding-bottom: 10px;
+	}
+
+	b2 {
+		font-family: 'Libre Baskerville', serif;
+		font-weight: bold;
+		text-decoration: underline;
+		font-size: 13px;
+		padding-bottom: 10px;
+	}
+	
+	
+	quote {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	
+	h1 {
+		font-family: 'Libre Baskerville', serif;
+		text-decoration: none;
+		font-size: 38px;
+		line-height: 34px;
+		letter-spacing: 1,5px;
+		letter-spacing: 0px;
+		font-stretch: expanded;
+	}
+	
+	/* Verschillende div's */
+
+
+	
+	#intro {
+		width: 100%;
+	}
+
+	#INSTA {
+		width: 90%;
+	
+	}
+
+	#INTRODUCTION {
+		width: 90%;
+	}
+
+
+	#CREATING {
+		width: 90%;
+	}
+
+	#ICONS {
+		width: 90%;
+	}
+
+	#MODERN {
+		width: 90%;
+	}
+
+	#MEDIA {
+		width: 90%;
+	}
+
+	#CONCLUSION {
+		width: 90%;
+	}
+
+	#ABSTRACT {
+		width: 90%;
+	}
+
+	#END{
+		display:none;
+	}
