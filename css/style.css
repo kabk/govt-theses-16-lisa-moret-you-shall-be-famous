@@ -565,7 +565,7 @@ a:hover img.popup {
 	}
 
 	.showhim:hover .showme {
-	    display: block; 
+	    display: inherit; 
 	}
 
 
