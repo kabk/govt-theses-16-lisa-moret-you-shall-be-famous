@@ -506,7 +506,7 @@ a:hover img.popup {
 		font-family: 'Libre Baskerville', serif;
 		letter-spacing: 0.5px;
 		font-size: 13px;
-		line-height: 22px;
+		line-height: 19px;
 	}
 
 	t2 {
@@ -565,7 +565,7 @@ a:hover img.popup {
 	}
 
 	.showhim:hover .showme {
-	    display: inherit; 
+	    display: block; 
 	}
 
 
