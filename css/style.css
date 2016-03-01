@@ -514,7 +514,7 @@ a:hover img.popup {
 		letter-spacing: 0.5px;
 		font-size: 14px;
 		color: white;	
-		text-align: left;
+	
 	}
 
 	quote {
@@ -589,7 +589,8 @@ a:hover img.popup {
 	#INTRODUCTION {
 		width: 90%;
 	 	margin: 0 auto;
-		text-align: left;
+		text-align: justify;
+		text-justify: inter-word;
 	}
 
 
