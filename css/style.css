@@ -349,7 +349,7 @@ a:hover img.popup {
 	   width: 100%;
 	   margin-top: -140px;
 	   background: black;
-		text-align: center;
+	   text-align: center;
 	}
 
 	div.backgroundtop {
@@ -361,8 +361,8 @@ a:hover img.popup {
 	   width: 100%;
 	   margin-top: 0px;
 	   background: alpha(opacity=40);
-		text-align: center;
-		background-image: url("toplayer.png");
+	   text-align: center;
+	   background-image: url("toplayer.png");
 	}
 
 	div.content {
@@ -576,9 +576,7 @@ a:hover img.popup {
 
 	
 	#intro {
-		width: 90%;
-	 	margin: 0 auto;
-		text-align: center;
+		display:none;
 	}
 
 	#INSTA {
@@ -631,9 +629,7 @@ a:hover img.popup {
 	}
 
 	#END{
-		width: 90%;
-	 	margin: 0 auto;
-		text-align: left;
+		display:none;
 	}
 	
 	
