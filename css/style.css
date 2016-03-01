@@ -370,7 +370,7 @@ a:hover img.popup {
 	   z-index: 1;
 	   height: 100%;
 	   width: 100%;
-	   margin-top: 90%;
+	   margin-top: 80%;
 	   background: #FAFAFA;
 	}
 
@@ -502,7 +502,7 @@ a:hover img.popup {
 	}
 
 
-	t {
+	t { 
 		font-family: 'Libre Baskerville', serif;
 		letter-spacing: 0.5px;
 		font-size: 13px;
@@ -589,8 +589,7 @@ a:hover img.popup {
 	#INTRODUCTION {
 		width: 90%;
 	 	margin: 0 auto;
-		text-align: justify;
-		text-justify: inter-word;
+		text-align: left;
 	}
 
 
