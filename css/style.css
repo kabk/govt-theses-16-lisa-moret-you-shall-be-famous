@@ -23,7 +23,7 @@ div.backgroundtop {
     background: alpha(opacity=40);
 	text-align: center;
 	color: white;
-	background-image: url("x");
+	background-image: url("toplayer.png");
 }
 
 div.content {
