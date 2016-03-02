@@ -352,16 +352,17 @@ a:hover img.popup {
 	}
 
 	div.backgroundtop {
-	   position: fixed;
-	   z-index: 0;
-	   top: 0;
-	   left: 0;
-	   height: 50%;
-	   width: 100%;
-	   margin-top: 0px;
-	   background: alpha(opacity=40);
-	   text-align: center;
-	   background-image: url("toplayer.png");
+	    position: fixed;
+	    z-index: 0;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    width: 100%;
+	    margin-top: 0px;
+	    background: alpha(opacity=40);
+		text-align: center;
+		color: white;
+
 	}
 
 	div.content {
