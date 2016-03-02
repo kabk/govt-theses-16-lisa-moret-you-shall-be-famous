@@ -23,7 +23,6 @@ div.backgroundtop {
     background: alpha(opacity=40);
 	text-align: center;
 	color: white;
-	background-image: url("toplayer.png");
 }
 
 div.content {
@@ -582,7 +581,7 @@ a:hover img.popup {
 	#INSTA {
 		width: 90%;
 	 	margin: 0 auto;
-		align: center;
+		text-align: left;
 	
 	}
 
