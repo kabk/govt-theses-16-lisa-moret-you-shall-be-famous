@@ -779,17 +779,10 @@ quote {
 	.showhim {
 		display: inline-block;
 	}
-	.showme { 
-	  display: inline-block;
-	  position: absolute;
-	  border-radius: 3px;
-	  /* 
-	  background-color: white;
-	  border-style: solid;
-	  border-color: darkgrey;
-	  border-width: 0.2px;
-	  box-shadow: 2px 2px 5px #888888;
-	  */
+	.showme {
+	    display: inline-block;
+	    position: absolute;
+		left: 10px;
 	}
 	.showhim .showme {
 	    display: none; 
