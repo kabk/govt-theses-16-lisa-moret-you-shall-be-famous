@@ -50,7 +50,8 @@ var scrolltotop = {
         bottom: o.controlattrs.offsety,
         right: o.controlattrs.offsetx,
         opacity: 0,
-        cursor: "pointer"
+        cursor: "pointer",
+		  'z-index': "9999"
       }).attr({
         title: "Scroll to Top"
       }).click(function() {
