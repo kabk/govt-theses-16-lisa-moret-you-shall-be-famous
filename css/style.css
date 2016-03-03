@@ -1,5 +1,22 @@
 @media screen and (min-width: 1200px) and (max-width: 1800px) {
 
+.box {
+	position: fixed;
+	background: alpha(opacity=40);
+	z-index: 5;
+	width: 80%;
+	margin-top: -25%;
+	margin-left: 10%;
+	
+	text-align: center;
+	background-color: white;
+	border: 1px solid;
+	border-color: darkgrey;
+	color: black;
+}
+	
+	/* WEBISTE */
+	
 div.background {
     position: fixed;
     z-index: 0;
@@ -13,62 +30,15 @@ div.background {
 	color: white;
 }
 
-div.backgroundtop {
-    position: fixed;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    margin-top: 0px;
-    background: alpha(opacity=40);
-	text-align: center;
-	color: white;
-}
-
 div.content {
     position: relative;
     z-index: 1;
     height: 100%;
     width: 100%;
-    margin-top: 40%;
+    margin-top: 30%;
     background: #FAFAFA;
 }
 
-/*
-header {
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    height: 3%;
-    width: 100%;
-    background: white;
-	
-	color: black;
-	text-align: center;
-	padding: 8px 25px; 
-	font-size: 10px;
-	display:inline-block;
-}
-
-/*leftheader {
-    position: fixed;
-    z-index: 9;
-    top: 0;
-    left: 0;
-    
-	height: 100%;
-    width: 3%;
-    
-	background: alpha(opacity=40);
-	border-right: 4px solid black;
-	
-	text-align: left;
-	
-}
-
-/* kleuren van links */
 
 li {
     list-style: none;
@@ -507,6 +477,7 @@ quote {
 	  display: inline-block;
 	  position: absolute;
 	  border-radius: 3px;
+	  align: center;
 	  /* 
 	  background-color: white;
 	  border-style: solid;
@@ -791,6 +762,9 @@ quote {
 	.showhim:hover .showme {
 	    display: inherit; 
 	}
+	
+	
+	
 
 
 

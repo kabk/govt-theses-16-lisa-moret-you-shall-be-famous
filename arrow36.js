@@ -60,7 +60,7 @@ var scrolltotop = {
         width: o.$control.width()
       }), o.togglecontrol(), t('a[href="' + o.anchorkeyword + '"]').click(function() {
         return o.scrollup(), !1
-      }), t(window).bind("scroll resize", function(t) {
+      }), t(window).bind("scroll re", function(t) {
         o.togglecontrol()
       })
     })
