@@ -1,6 +1,11 @@
 @media screen and (min-width: 1200px) and (max-width: 1800px) {
 
+
+/* popup */
+	
+	
 .box {
+	display:none;
 	position: fixed;
 	background: alpha(opacity=40);
 	z-index: 5;
@@ -23,8 +28,9 @@ div.background {
     height: 100%;
     width: 100%;
     margin-top: 0px;
+	margin-right: 10%;
     background: black;
-	text-align: center;
+	text-align: right;
 	color: white;
 }
 
