@@ -9,7 +9,7 @@
 	background: alpha(opacity=40);
 	z-index: 5;
 	width: 80%;
-	margin-top: -40%;
+	margin-top: 5%;
 	margin-left: 10%;
 	
 	text-align: right;
@@ -38,7 +38,7 @@ div.content {
     z-index: 1;
     height: 100%;
     width: 100%;
-    margin-top: 43%;
+    margin-top: 40%;
     background: #FAFAFA;
 }
 
