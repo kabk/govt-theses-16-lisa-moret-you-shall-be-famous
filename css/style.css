@@ -312,11 +312,12 @@ quote {
 	
 	
 	.box {
+		display: none;
 		position: fixed;
 		background: alpha(opacity=40);
 		z-index: 5;
 		width: 85%;
-		margin-top: -25%;
+		margin-top: 20%;
 		margin-left: 7%;
 	
 		text-align: right;
@@ -345,7 +346,7 @@ quote {
 	    z-index: 1;
 	    height: 100%;
 	    width: 100%;
-	    margin-top: 30%;
+	    margin-top: 75%;
 	    background: #FAFAFA;
 	}
 
@@ -547,7 +548,7 @@ quote {
 	}
 	
 	#INSTA2 {
-		width: 30%;
+		width: 55%;
 	 	margin: auto;
 		align: center;
 	
@@ -647,7 +648,7 @@ quote {
 	    z-index: 1;
 	    height: 100%;
 	    width: 100%;
-	    margin-top: 30%;
+	    margin-top: 135%;
 	    background: #FAFAFA;
 	}
 
@@ -846,7 +847,7 @@ quote {
 	}
 	
 	#INSTA2 {
-		width: 30%;
+		width: 85%;
 	 	margin: auto;
 		align: center;
 	
