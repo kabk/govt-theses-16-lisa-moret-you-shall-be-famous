@@ -9,11 +9,11 @@
 	background: alpha(opacity=40);
 	z-index: 5;
 	width: 70%;
-	margin-top: 5%;
+	margin-top: 0%;
 	margin-left: 15%;
 	
 	text-align: right;
-	color: black;
+	color: white;
 }
 	
 
@@ -29,16 +29,32 @@ div.background {
     margin-top: 0px;
 	margin-right: 10%;
     background: black;
-	text-align: center;
+	text-align: left;
 	color: white;
 }
+
+nav{
+	width: 20%;
+	position: fixed;
+	text-size: 14px;
+	line-height: 16px;
+	left: 15px;
+	top: 100px;
+	text-align: left;
+	font-family: 'Libre Baskerville', serif;
+	letter-spacing: 0.04em;
+	z-index: 999;
+	
+	
+}
+
 
 div.content {
     position: relative;
     z-index: 1;
     height: 100%;
     width: 100%;
-    margin-top: 40%;
+    margin-top: 46%;
     background: #FAFAFA;
 }
 
@@ -185,9 +201,10 @@ t {
 t2 {
 	font-family: 'Libre Baskerville', serif;
 	letter-spacing: 0.5px;
-	font-size: 14px;
-	color: white;	
+	font-size: 10px;
+	color: black;	
 	text-align: left;
+	line-height: 10px;
 }
 
 
@@ -349,6 +366,11 @@ quote {
 	    margin-top: 75%;
 	    background: #FAFAFA;
 	}
+	
+	nav{
+		display: none;
+	
+	}
 
 
 	li {
@@ -468,7 +490,7 @@ quote {
 	b {
 		font-family: "Open Sans", sans-serif;
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 12px;
 		padding-bottom: 10px;
 	}
 
@@ -477,7 +499,7 @@ quote {
 		font-family: 'Libre Baskerville', serif;
 		font-weight: bold;
 		text-decoration: underline;
-		font-size: 14px;
+		font-size: 12px;
 		padding-bottom: 10px;
 	}
 
@@ -650,6 +672,11 @@ quote {
 	    width: 100%;
 	    margin-top: 135%;
 	    background: #FAFAFA;
+	}
+	
+	nav{
+		display: none;
+	
 	}
 
 
