@@ -8,8 +8,8 @@
 	position: fixed;
 	background: alpha(opacity=40);
 	z-index: 5;
-	width: 70%;
-	margin-top: 0%;
+	width: 69%;
+	margin-top: -1%;
 	margin-left: 15%;
 	
 	text-align: right;
@@ -38,8 +38,8 @@ nav{
 	position: fixed;
 	text-size: 14px;
 	line-height: 16px;
-	left: 15px;
-	top: 100px;
+	right: -80px;
+	bottom: 15px;
 	text-align: left;
 	font-family: 'Libre Baskerville', serif;
 	letter-spacing: 0.04em;
@@ -54,7 +54,7 @@ div.content {
     z-index: 1;
     height: 100%;
     width: 100%;
-    margin-top: 46%;
+    margin-top: 43.5%;
     background: #FAFAFA;
 }
 
@@ -199,12 +199,23 @@ t {
 
 
 t2 {
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Open Sans', serif;
 	letter-spacing: 0.5px;
 	font-size: 10px;
 	color: black;	
 	text-align: left;
 	line-height: 10px;
+	 text-transform: uppercase;
+}
+
+t3 {
+	font-family: 'Open Sans', serif;
+	letter-spacing: 0.5px;
+	font-size: 10px;
+	color: white;	
+	text-align: left;
+	line-height: 10px;
+	 text-transform: uppercase;
 }
 
 
