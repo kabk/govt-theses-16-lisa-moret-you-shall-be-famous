@@ -524,11 +524,23 @@ quote {
 
 
 	t2 {
-		font-family: 'Libre Baskerville', serif;
+		font-family: 'Open Sans', serif;
 		letter-spacing: 0.5px;
-		font-size: 14px;
+		font-size: 10px;
+		color: black;	
+		text-align: left;
+		line-height: 10px;
+		 text-transform: uppercase;
+	}
+
+	t3 {
+		font-family: 'Open Sans', serif;
+		letter-spacing: 0.5px;
+		font-size: 10px;
 		color: white;	
 		text-align: left;
+		line-height: 10px;
+		 text-transform: uppercase;
 	}
 
 
@@ -681,7 +693,7 @@ quote {
 	    z-index: 1;
 	    height: 100%;
 	    width: 100%;
-	    margin-top: 135%;
+	    margin-top: 127%;
 	    background: #FAFAFA;
 	}
 	
@@ -830,11 +842,23 @@ quote {
 
 
 	t2 {
-		font-family: 'Libre Baskerville', serif;
+		font-family: 'Open Sans', serif;
 		letter-spacing: 0.5px;
-		font-size: 14px;
+		font-size: 10px;
+		color: black;	
+		text-align: left;
+		line-height: 10px;
+		 text-transform: uppercase;
+	}
+
+	t3 {
+		font-family: 'Open Sans', serif;
+		letter-spacing: 0.5px;
+		font-size: 10px;
 		color: white;	
 		text-align: left;
+		line-height: 10px;
+		 text-transform: uppercase;
 	}
 
 
